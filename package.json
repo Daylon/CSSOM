@@ -19,6 +19,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "prepublish": "jake lib/index.js"
+    "prepublish": "jake lib/index.js",
+    "prepare": "jake lib/index.js"
   }
 }
