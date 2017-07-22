@@ -20,6 +20,6 @@
   "license": "MIT",
   "scripts": {
     "prepublish": "jake lib/index.js",
-    "postinstall": "jake -C $(node -e 'console.log(__dirname)') lib/index.js"
+    "postinstall": "echo $(node -e 'console.log(__dirname)') && echo $(node -e 'console.log(process.cwd())')"
   }
 }
