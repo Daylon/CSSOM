@@ -20,6 +20,6 @@
   "license": "MIT",
   "scripts": {
     "prepublish": "jake lib/index.js",
-    "prepare": "jake lib/index.js"
+    "postinstall": "jake lib/index.js"
   }
 }
