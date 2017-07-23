@@ -12,6 +12,7 @@
   "repository": "NV/CSSOM",
   "files": [
     "lib/",
+    "src/",
     "Jakefile.js"
   ],
   "main": "./lib/index.js",
